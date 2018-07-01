@@ -1,0 +1,304 @@
+html, body {
+	margin: 5%;
+	width: 90%;
+
+
+
+}
+
+.encabezado {
+	height: 20%;
+	width: 80%;
+	margin: auto;
+	text-transform: uppercase;
+	text-align: center;
+	
+
+}
+
+.encabezado img {
+	width: 15%;
+	border-radius: 50%
+	
+	
+}
+
+.columna1 {
+	width: 60%;
+	height: 80%;
+	padding-left: 200px;
+	box-sizing: border-box;
+	display: table-cell;
+	text-align: left;
+	float: left;
+
+
+}
+
+.acerca {
+	width: 100%;
+
+}
+	
+.t_2012 p {
+	float: left;
+	margin: 0%;
+	padding: 0px 10px 0px 0px;
+	margin-top: 10px;
+	
+}
+
+.t_1986 p {
+	float: left;
+	margin: 0%;
+	padding: 0px 10px 0px 0px;
+	margin-top: 10px;
+}
+
+.educacion_item1 {
+	width: 100%;
+
+}
+.educacion_item1 p {
+	padding: 0px 0px 0px 10px;
+	width: 90%;
+	background-color: #F8F7F6;
+	display: inline-block;
+	margin-top:  10px;
+}
+.educacion_item2 {
+	width: 100%;
+}
+.educacion_item2 p {
+	padding: 0px 0px 0px 10px;	
+	width: 90%;
+	background-color: #F8F7F6;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+
+.experiencia {
+	width: auto;
+	height: 90%;
+
+}
+
+.google  {
+	
+	margin: 0%;
+	display: inline-block;
+	float: left;
+}
+
+
+.google p{
+	margin:0px;
+	
+
+}
+
+.descripcion_1 {
+	width: 100%
+}
+.descripcion_1 p {
+	padding: 0px 0px 0px 40px;
+	width: 70%;
+	display: inline-block;
+	margin: 0%;
+	margin-bottom: 20px;
+}
+
+.columna2 {
+
+	width: 30%;
+	height: 80%;
+	box-sizing: border-box;
+	display: table-cell;
+	text-align: left;
+	float: left;
+
+}
+
+.contacto {
+	width: auto;
+
+}
+
+.skills {
+	width: auto;
+	text-transform: uppercase;
+
+	
+
+}
+
+.python p {
+	height: auto;
+	width: 90%;
+	margin: 0%;
+	padding: 5px 5px;
+	background-color: #FF5733;
+	color: white;
+	display: inline-block;
+	text-align: left;
+}
+
+.html p {
+	height: auto;
+	width: 80%;
+	margin: 0%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 5px;
+	background-color: #FF5733;
+	color: white;
+	display: inline-block;
+	text-align: left;
+
+}
+
+.css p {
+	height: auto;
+	width: 65%;
+	margin-top: 5px;
+	margin: 0%;
+	padding: 5px 5px;
+	background-color: #FF5733;
+	color: white;
+	display: inline-block;
+	text-align: left;
+}
+
+.js p {
+	height: auto;
+	width: 40%;
+	margin: 0%;
+	margin-top: 5px;
+	padding: 5px 5px;
+	background-color: #FF5733;
+	color: white;
+	display: inline-block;
+	text-align: left;
+}
+
+.php p {
+	height: auto;
+	width: 20%;
+	margin: 0%;
+	margin-top: 5px;
+	padding: 5px 5px;
+	background-color: #FF5733;
+	color: white;
+	display: inline-block;
+	text-align: left;
+}
+.idiomas {
+	width: auto;
+
+}
+
+.hobbies 	{
+	width: 100%
+
+}
+.stars-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+}
+
+.stars-outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006";
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  color: #f8ce0b;
+}
+
+.attribution {
+  font-size: 12px;
+  color: #444;
+  text-decoration: none;
+  text-align: center;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: -1;
+}
+.attribution:hover {
+  color: #1fa67a;
+}
+.texto_hobbie p {
+	margin: 2px 5px;
+	
+
+}
+
+
+.deporte {
+	height: auto;
+	width: 70px;
+	background-color: #900C3F;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	margin-right: 2px;
+	
+
+}
+
+
+.familia {
+	height: auto;
+	width: 80px;
+	background-color: #900C3F;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	margin-right: 2px;
+
+}
+
+.cocina {
+	height: auto;
+	width: 70px;
+	background-color: #900C3F;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2px;
+
+	
+
+	
+}
+
+@media(max-width: 480px) and (min-height: 480px) {
+	.columna2 .columna1 .encabezado {
+		float: left;
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
