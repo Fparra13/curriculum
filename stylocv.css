@@ -12,32 +12,24 @@ html, body {
 	margin: auto;
 	text-transform: uppercase;
 	text-align: center;
-	
-
 }
 
 .encabezado img {
 	width: 15%;
 	border-radius: 50%
-	
-	
 }
 
 .columna1 {
 	width: 60%;
 	height: 80%;
-	padding-left: 200px;
 	box-sizing: border-box;
 	display: table-cell;
 	text-align: left;
 	float: left;
-
-
 }
 
 .acerca {
-	width: 100%;
-
+	width: 96%;
 }
 	
 .t_2012 p {
@@ -45,7 +37,6 @@ html, body {
 	margin: 0%;
 	padding: 0px 10px 0px 0px;
 	margin-top: 10px;
-	
 }
 
 .t_1986 p {
@@ -59,6 +50,7 @@ html, body {
 	width: 100%;
 
 }
+
 .educacion_item1 p {
 	padding: 0px 0px 0px 10px;
 	width: 90%;
@@ -66,9 +58,11 @@ html, body {
 	display: inline-block;
 	margin-top:  10px;
 }
+
 .educacion_item2 {
 	width: 100%;
 }
+
 .educacion_item2 p {
 	padding: 0px 0px 0px 10px;	
 	width: 90%;
@@ -77,11 +71,9 @@ html, body {
 	margin-top: 10px;
 }
 
-
 .experiencia {
 	width: auto;
 	height: 90%;
-
 }
 
 .google  {
@@ -95,12 +87,12 @@ html, body {
 .google p{
 	margin:0px;
 	
-
 }
 
 .descripcion_1 {
 	width: 100%
 }
+
 .descripcion_1 p {
 	padding: 0px 0px 0px 40px;
 	width: 70%;
@@ -117,20 +109,20 @@ html, body {
 	display: table-cell;
 	text-align: left;
 	float: left;
+}
+
+.columna2 h4 {
+	color: #F77309;
 
 }
 
 .contacto {
 	width: auto;
-
 }
 
 .skills {
 	width: auto;
 	text-transform: uppercase;
-
-	
-
 }
 
 .python p {
@@ -155,7 +147,6 @@ html, body {
 	color: white;
 	display: inline-block;
 	text-align: left;
-
 }
 
 .css p {
@@ -193,58 +184,43 @@ html, body {
 	display: inline-block;
 	text-align: left;
 }
-.idiomas {
-	width: auto;
-
+.idioma {
+	padding-top: 2px;
+	text-align: left;
 }
 
+.texto_ingles{
+
+	float: left;
+}
+
+.texto_español {
+	display: inline-block;
+	float: left
+}
+
+.stars1 {
+	margin-left: 50px;
+	color: red;
+	display: inline-block; 
+}
+
+.stars2 {
+	margin-left: 35px;
+	display: inline-block; 
+	color: red;
+
+
+}
 .hobbies 	{
-	width: 100%
+	text-align: left;
+	display: inline-block;
 
 }
-.stars-outer {
-  display: inline-block;
-  position: relative;
-  font-family: FontAwesome;
-}
 
-.stars-outer::before {
-  content: "\f006 \f006 \f006 \f006 \f006";
-}
-
-.stars-inner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 0;
-}
-
-.stars-inner::before {
-  content: "\f005 \f005 \f005 \f005 \f005";
-  color: #f8ce0b;
-}
-
-.attribution {
-  font-size: 12px;
-  color: #444;
-  text-decoration: none;
-  text-align: center;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  z-index: -1;
-}
-.attribution:hover {
-  color: #1fa67a;
-}
 .texto_hobbie p {
 	margin: 2px 5px;
-	
-
 }
-
 
 .deporte {
 	height: auto;
@@ -255,10 +231,7 @@ html, body {
 	text-align: center;
 	float: left;
 	margin-right: 2px;
-	
-
 }
-
 
 .familia {
 	height: auto;
@@ -269,7 +242,6 @@ html, body {
 	text-align: center;
 	float: left;
 	margin-right: 2px;
-
 }
 
 .cocina {
@@ -279,9 +251,8 @@ html, body {
 	color: white;
 	display: inline-block;
 	text-align: center;
-	margin-right: 2px;
+	margin top: 10px;
 
-	
 
 	
 }
